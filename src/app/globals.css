@@ -5,10 +5,10 @@
 @layer base {
   @font-face {
     font-family: "Poppins";
-    src: url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+    src: url("/fonts/Poppins-Bold.ttf");
   }
   @font-face {
     font-family: "Open Sans";
-    src: url("/fonts/JetBrainsMono-ExtraBold.ttf");
+    src: url("/fonts/OpenSans-Regular.ttf");
   }
 }
