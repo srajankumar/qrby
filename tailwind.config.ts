@@ -6,6 +6,13 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  theme: {
+    extend: {},
+    fontFamily: {
+      Poppins: ["Poppins", "sans-serif"],
+      OpenSans: ["Open Sans", "sans-serif"],
+    },
+  },
   plugins: [],
 };
 export default config;
