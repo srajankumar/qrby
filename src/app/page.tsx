@@ -2,6 +2,7 @@
 import { useState } from "react";
 import axios from "axios";
 import Link from "next/link";
+import Background from "@/components/Background";
 
 export default function Home() {
   const [inputData, setInputData] = useState("");
@@ -40,7 +41,8 @@ export default function Home() {
   };
 
   return (
-    <div className="flex font-OpenSans font-bold h-screen justify-center bg-gray-50 items-center">
+    <div className="flex font-OpenSans font-bold h-screen justify-center items-center">
+      <Background />
       <div className="py-5 drop-shadow-xl w-full sm:h-auto sm:w-[20rem] bg-white rounded-3xl flex flex-col">
         <h1 className="font-Poppins px-10 py-5 drop-shadow-md text-3xl text-blue-400">
           QRby
